@@ -359,7 +359,7 @@ apt autoremove -y
 
 #instalasi Websocket
 wget https://raw.githubusercontent.com/hidessh99/projectku/main/websocket/hideinstall-websocket.sh && chmod +x hideinstall-websocket.sh && ./hideinstall-websocket.sh
-/usr/sbin/useradd -p $(openssl passwd -1 jsoft) -s /bin/false -M jsoft &> /dev/null;
+/usr/sbin/useradd -p $(openssl passwd -1 slowdns) -s /bin/false -M slowdns &> /dev/null;
 # finihsing
 clear
 #installer OPH
