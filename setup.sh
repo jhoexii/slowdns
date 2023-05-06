@@ -36,9 +36,9 @@ mkdir /usr/local/sbin/jho
 chmod +x /usr/local/sbin/jho
 cat << EOF > /usr/local/sbin/jho/cron.sh
 #!/bin/bash
-wget -O /usr/local/sbin/jho/active.sh http://159.89.194.190/app/prem
-wget -O /usr/local/sbin/jho/inactive.sh http://159.89.194.190/app/xprem
-wget -O /usr/local/sbin/jho/deleted.sh http://159.89.194.190/app/deleted
+wget -O /usr/local/sbin/jho/active.sh http://159.89.194.190/api/app/prem
+wget -O /usr/local/sbin/jho/inactive.sh http://159.89.194.190/api/app/xprem
+wget -O /usr/local/sbin/jho/deleted.sh http://159.89.194.190/api/app/deleted
 chmod -R +x /usr/local/sbin/jho/
 cd /root
 rm -rf *sh
